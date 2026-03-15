@@ -7,7 +7,7 @@ from textblob import TextBlob
 # -------------------------------
 def fetch_news(query):
     try:
-        url = f"https://newsapi.org/v2/everything?q={query}&apiKey=bd2e868419b246aa95c4603fb5adb1ad"
+        url = f"https://newsapi.org/v2/everything?q={query}&apiKey=Your Key"
         response = requests.get(url)
         response.raise_for_status()
         data = response.json()
